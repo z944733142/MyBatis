@@ -1,0 +1,125 @@
+Log4jTest info 7 
+Log4jTest info 7 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select count(*) from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select count(*) from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: slect * from flower where id=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select count(*) from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 0 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=1  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 0 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select count(*) from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=2  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select count(*) from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=2  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: null 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 0 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select count(*) from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=2  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: null 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 0 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select count(*) from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=2  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower limit ?,?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 2 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 28 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select count(*) from flower  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=2  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower where id=?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 2(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower limit ?,?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 0(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower limit ?,?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 3(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from flower limit ?,?  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 6(Integer), 3(Integer) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 3 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: insert into flower values(default , ?, ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: flw(String), here(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==    Updates: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: insert into flower values(default , ?, ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: flw(String), here(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==    Updates: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: insert into flower values(default , ?, ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: flw(String), aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: insert into flower values(default , ?, ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: flw(String), here(String) 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==    Updates: 1 159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: insert into flower values(default , ?, ?)  159 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: flw(String), aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa(String) 159 

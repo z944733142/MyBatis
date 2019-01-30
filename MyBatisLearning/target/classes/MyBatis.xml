@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--<settings>-->
+        <!--<setting name="logImpl" value="LOG4J"/>-->
+    <!--</settings>-->
+    <!--包别名 调用包中的类直接使用其类的类名-->
+    <!--<typeAliases>-->
+        <!--<package name="com.pojo"></package>-->
+    <!--</typeAliases>-->
+     <!--&lt;!&ndash;类别名 调用该类直接使用别名&ndash;&gt;-->
+    <!--<typeAliases>-->
+        <!--<typeAlias type="com.pojo.Flower" alias="flower"></typeAlias>-->
+    <!--</typeAliases>-->
+    <!--defualt 引用的环境environment-->
+    <environments default="mybatis">
+        <environment id="mybatis">
+            <!--使用原生jdbc事务-->
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="UNPOOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"></property>
+                <property name="url" value="jdbc:mysql://localhost:3306/mydb?serverTimezone=UTC"></property>
+                <property name="username" value="root"/>
+                <property name="password" value="159630235z"></property>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <mapper resource="mapper/mapper.xml"/>
+    </mappers>
+</configuration>
